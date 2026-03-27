@@ -28,7 +28,33 @@ Development Tools
 Visual Studio, Visual Studio Code, Postman, SSMS (SQL Server Management Studio), KDiff, Figma, Zeplin, Photoshop, Trello, Todoist, Evernote, Google Calendar
 
 Code Examples
-
+  const createArrayOfPagesBySelectedPattern = () => {
+    for (let i = 1; i <= Math.min(boundaries, totalPages); i++) {
+      pageNumbers.push(i);
+    }
+    const shouldShowLeftEllipsis = page - siblings > boundaries + 1;
+    if (shouldShowLeftEllipsis) {
+      pageNumbers.push(-1);
+    }
+    const start = Math.max(boundaries + 1, page - siblings);
+    const end = Math.min(totalPages - boundaries, page + siblings);
+    for (let i = start; i <= end; i++) {
+      if (i > boundaries && i <= totalPages - boundaries) {
+        pageNumbers.push(i);
+      }
+    }
+    const shouldShowRightEllipsis = page + siblings < totalPages - boundaries;
+    if (shouldShowRightEllipsis) {
+      pageNumbers.push(-2);
+    }
+    for (
+      let i = Math.max(totalPages - boundaries + 1, boundaries + 1);
+      i <= totalPages;
+      i++
+    ) {
+      pageNumbers.push(i);
+    }
+  };
 
 Work Experience
 Software Developer
@@ -46,6 +72,15 @@ Nov 2014 - May 2017 · 2 yrs 7 mos
 Supporting and developing projects on Ext.net(ASP.net, MVC, C#), creating reports(SSRS), working on integration of databases(SSIS), support on analysis services(SSAS) and Data Warehouse.
 
 
-Education (including completed courses and training)
+Education
+Belarusian State University of Informatics and Radioelectronics
+Bachelor's degree, Computer Science
+2009 – 2014
 
-English Language (your English proficiency level, and if you had language practice, describe it)
+RS School React Course 
+The Rolling Scopes School
+Issued Sep 2025
+
+English Language 
+EF SET English Certificate 60/100 (B2 Upper Intermediate)
+Issued Dec 2025
