@@ -28,6 +28,24 @@ Development Tools
 Visual Studio, Visual Studio Code, Postman, SSMS (SQL Server Management Studio), KDiff, Figma, Zeplin, Photoshop, Trello, Todoist, Evernote, Google Calendar
 
 Code Examples
-Work Experience (Junior Devs can list educational projects with the skills used and links to the source code)
+
+
+Work Experience
+Software Developer
+Alverden Systems · Full-time
+Oct 2018 - Jul 2020 · 1 yr 10 mos
+Минск · Hybrid
+Developing front-end, making html layouts, implementing new designs, supporting c# features.
+
+Scand
+Jun 2017 - Aug 2018 · 1 yr 3 mos
+Support and customization of different projects
+
+System Technologies
+Nov 2014 - May 2017 · 2 yrs 7 mos
+Supporting and developing projects on Ext.net(ASP.net, MVC, C#), creating reports(SSRS), working on integration of databases(SSIS), support on analysis services(SSAS) and Data Warehouse.
+
+
 Education (including completed courses and training)
+
 English Language (your English proficiency level, and if you had language practice, describe it)
