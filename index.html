@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+    <title>Veronika Dementey - Frontend Developer</title>
+    <link rel="stylesheet" href="style.css" >
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <div class="header-info">
+          <h1>Veronika Dementey</h1>
+          <div class="contact">
+            📱 <strong>Telegram:</strong>
+            <a href="https://t.me/@NikaDementey" target="_blank">t.me/@NikaDementey</a>
+          </div>
+        </div>
+        <div class="photo-area">
+          <div class="photo-placeholder">
+            <img src="images/avatar.jpg" alt="Veronika Dementey" >
+          </div>
+        </div>
+      </div>
+
+      <hr>
+
+      <h2>About Me</h2>
+      <p>
+        My main goal is to stay up to date with current trends in programming
+        and not lose my grip while I am currently unemployed. I previously
+        worked as a full-stack developer with over three years of experience
+        across various technologies—primarily C# on the backend, and Ext.NET,
+        Vue.js 2, and Angular on the frontend.
+      </p>
+      <p>
+        After losing my job, I made the decision to switch into frontend
+        development and dig deep into the areas where I felt my knowledge was
+        lacking. I am now focused on filling the gaps in my understanding of
+        modern HTML, CSS, and JavaScript/TypeScript.
+      </p>
+      <p>
+        My strengths include being communicative, attentive to details,
+        creative, and I bring a user-focused mindset along with strong
+        collaboration skills. I look forward to working on interesting projects
+        and am open to participating in collaborations as a volunteer.
+      </p>
+
+      <hr>
+
+      <h2>Skills</h2>
+
+      <div class="skills-section">
+        <strong>Programming Languages:</strong> C#, JavaScript, TypeScript,
+        HTML5, CSS3, Python, SQL
+      </div>
+
+      <div class="skills-section">
+        <strong>Frontend Frameworks and Libraries:</strong> React, Vue.js 2,
+        Angular, Ext.NET, Razor Views (ASP.NET MVC)
+      </div>
+
+      <div class="skills-section">
+        <strong>Backend Frameworks:</strong> ASP.NET MVC, .NET
+      </div>
+
+      <div class="skills-section">
+        <strong>Databases:</strong> MSSQL, Firebase
+      </div>
+
+      <div class="skills-section">
+        <strong>Version Control:</strong> Git, Git Bash
+      </div>
+
+      <div class="skills-section">
+        <strong>Methodologies and Approaches:</strong> User-focused
+        development, Collaborative teamwork, Detail-oriented problem-solving,
+        Design Patterns, SOLID Principles, YAGNI, TDD (Test-Driven Development),
+        DDD (Domain-Driven Design)
+      </div>
+
+      <div class="skills-section">
+        <strong>Development Tools:</strong> Visual Studio, Visual Studio Code,
+        Postman, SSMS (SQL Server Management Studio), KDiff, Figma, Zeplin,
+        Photoshop, Trello, Todoist, Evernote, Google Calendar
+      </div>
+
+      <hr>
+
+      <h2>Code Examples</h2>
+      <pre><code>const createArrayOfPagesBySelectedPattern = () =&gt; {
+  for (let i = 1; i &lt;= Math.min(boundaries, totalPages); i++) {
+    pageNumbers.push(i);
+  }
+  const shouldShowLeftEllipsis = page - siblings &gt; boundaries + 1;
+  if (shouldShowLeftEllipsis) {
+    pageNumbers.push(-1);
+  }
+  const start = Math.max(boundaries + 1, page - siblings);
+  const end = Math.min(totalPages - boundaries, page + siblings);
+  for (let i = start; i &lt;= end; i++) {
+    if (i &gt; boundaries &amp;&amp; i &lt;= totalPages - boundaries) {
+      pageNumbers.push(i);
+    }
+  }
+  const shouldShowRightEllipsis = page + siblings &lt; totalPages - boundaries;
+  if (shouldShowRightEllipsis) {
+    pageNumbers.push(-2);
+  }
+  for (
+    let i = Math.max(totalPages - boundaries + 1, boundaries + 1);
+    i &lt;= totalPages;
+    i++
+  ) {
+    pageNumbers.push(i);
+  }
+};</code></pre>
+
+      <hr>
+
+      <h2>Work Experience</h2>
+
+      <div class="job">
+        <div class="job-title">Software Developer</div>
+        <div class="job-meta">
+          <span class="company">Alverden Systems</span> · Full-time<br>Oct
+          2018 - Jul 2020 · 1 yr 10 mos<br>Minsk · Hybrid
+        </div>
+        <div class="job-description">
+          Developing front-end, making html layouts, implementing new designs,
+          supporting C# features.
+        </div>
+      </div>
+
+      <div class="job">
+        <div class="job-title">Scand</div>
+        <div class="job-meta">Jun 2017 - Aug 2018 · 1 yr 3 mos</div>
+        <div class="job-description">
+          Support and customization of different projects
+        </div>
+      </div>
+
+      <div class="job">
+        <div class="job-title">System Technologies</div>
+        <div class="job-meta">Nov 2014 - May 2017 · 2 yrs 7 mos</div>
+        <div class="job-description">
+          Supporting and developing projects on Ext.net (ASP.NET, MVC, C#),
+          creating reports (SSRS), working on integration of databases (SSIS),
+          support on analysis services (SSAS) and Data Warehouse.
+        </div>
+      </div>
+
+      <hr>
+
+      <h2>Education</h2>
+
+      <div class="education-item">
+        <div class="job-title">
+          Belarusian State University of Informatics and Radioelectronics
+        </div>
+        <div class="edu-degree">Bachelor's degree, Computer Science</div>
+        <div class="edu-date">2009 - 2014</div>
+      </div>
+
+      <div class="education-item">
+        <div class="job-title">RS School React Course</div>
+        <div class="job-meta">
+          The Rolling Scopes School<br>Issued Sep 2025
+        </div>
+      </div>
+
+      <div class="education-item">
+        <div class="job-title">English Language</div>
+        <div class="job-meta">
+          EF SET English Certificate 60/100 (B2 Upper Intermediate)<br>Issued
+          Dec 2025
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
